@@ -4,101 +4,129 @@
 // Reseteamos margin y paddongs de todas las etiquetas
 
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
-    vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  vertical-align: baseline;
 }
 
 // Evitamos problemas con imagenes
 
-img, picture, video, iframe, figure{
-    max-width: 100%;
-    width: 100%;
-    display: block;
+img,
+picture,
+video,
+iframe,
+figure {
+  max-width: 100%;
+  width: 100%;
+  display: block;
 }
 
 // Reset para los enlaces para funcionar como cajas
 
 a {
-    display: block;
+  display: block;
 }
 
 // ...Exepto en los que se encuentran en parrafos
 
 p a {
-    display: inline;
+  display: inline;
 }
 
 // Quitamos los puntos de los li
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 // Configuramos anclas suaves
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
 // Desactivamos estilops por defecto de las principales etiquetas de texto
 
-h1, h2, h3, h4, h5, h6, p, span, a, strong, blockquote, i, b, u, em {
-    font-size: 1em;
-    font-weight: inherit;
-    font-style: inherit;
-    color: inherit;
-    text-decoration: none;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+strong,
+blockquote,
+i,
+b,
+u,
+em {
+  font-size: 1em;
+  font-weight: inherit;
+  font-style: inherit;
+  color: inherit;
+  text-decoration: none;
 }
 
 // Evitamos problemas con los psudoelemntos de quotes
 
-blockquote::before, blockquote::after, q::before, q::after {
-    content: '';
-    content: none;
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: "";
+  content: none;
 }
 
 // configuramos el texto que seleccionamos
 ::selection {
-    background-color: rebeccapurple;
-    color: aqua;
+  background-color: rebeccapurple;
+  color: aqua;
 }
 
 // Nivelamos problemas de tipografia y colocacion de formularios
 
-form, input, textarea, select, button, label {
-    font-family: inherit;
-    font-size: inherit;
-    hyphens: auto;
-    background-color: transparent;
-    display: block;
-    color: inherit;
-    // appearance: none; Opcional
+form,
+input,
+textarea,
+select,
+button,
+label {
+  font-family: inherit;
+  font-size: inherit;
+  hyphens: auto;
+  background-color: transparent;
+  display: block;
+  color: inherit;
+  // appearance: none; Opcional
 }
 
 // Reseteamos las tablas
 
-table, tr, td {
-    border-collapse: collapse;
-    border-spacing: 0;
+table,
+tr,
+td {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 // Evitamos problemas con SVG
 
 svg {
-    width: 100%;
-    display: block;
-    fill: currentColor;
+  width: 100%;
+  display: block;
+  fill: currentColor;
 }
 
 // Configuramos la tipografia de toda la web
 
 body {
-    min-height: 100vh;
-    font-size: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    color: brown;
-    line-height: 1.6em;
+  min-height: 100vh;
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: brown;
+  line-height: 1.6em;
 }
