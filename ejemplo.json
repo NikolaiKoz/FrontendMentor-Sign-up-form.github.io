@@ -99,10 +99,892 @@
                     "series": 8,
                     "repeticiones": 0
                 }
+                ],
+                "pecho": [
+                    {
+                        "ejercicio": "Press banco plano",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Press banco inclinado",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Press banco declinado",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    }
+                ],
+                "triceps": [
+                    {
+                        "ejercicio": "Barras paralelas",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Flexiones con manos juntas",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Extensiones de pie con mancuernas",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    }
                 ]
             },
-            "miercoles": [],
-            "jueves": [],
+            "miercoles": {
+                "calentamiento":[
+                    {
+                        "ejercicio": "Bicicleta",
+                        "tiempo": "15 seg",
+                        "series": 0,
+                        "repeticiones": 0
+                    }
+                ],
+                "core": [
+                    {
+                    "ejercicio": "Elevacion de piernas",
+                    "tiempo": "",
+                    "series": 4,
+                    "repeticiones": 15
+                },
+                {
+                    "ejercicio": "Abdominales cortos",
+                    "tiempo": "",
+                    "series": 4,
+                    "repeticiones": 20
+                },
+                {
+                    "ejercicio": "Russian twist",
+                    "tiempo": "20 seg",
+                    "series": 8,
+                    "repeticiones": 0
+                }
+                ],
+                "espalda": [
+                    {
+                        "ejercicio": "Remo con barra",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Peso muerto con barra",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Dominadas",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    }
+                ],
+                "Biceps": [
+                    {
+                        "ejercicio": "Curl de biceps en banco con barra S",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Bicep concentrado con mancuerna",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Curl de biceps de pie y alternado",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    }
+                ]
+            },
+            "jueves": {
+                "calentamiento":[
+                    {
+                        "ejercicio": "Bicicleta",
+                        "tiempo": "15 seg",
+                        "series": 0,
+                        "repeticiones": 0
+                    }
+                ],
+                "core": [
+                    {
+                    "ejercicio": "Elevacion de piernas",
+                    "tiempo": "",
+                    "series": 4,
+                    "repeticiones": 15
+                },
+                {
+                    "ejercicio": "Abdominales cortos",
+                    "tiempo": "",
+                    "series": 4,
+                    "repeticiones": 20
+                },
+                {
+                    "ejercicio": "Russian twist",
+                    "tiempo": "20 seg",
+                    "series": 8,
+                    "repeticiones": 0
+                }
+                ],
+                "pecho": [
+                    {
+                        "ejercicio": "Press banco plano",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Press banco inclinado",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Press banco declinado",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    }
+                ],
+                "triceps": [
+                    {
+                        "ejercicio": "Barras paralelas",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Flexiones con manos juntas",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Extensiones de pie con mancuernas",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    }
+                ]
+            },
+            "viernes": {
+                "calentamiento":[
+                    {
+                        "ejercicio": "Bicicleta",
+                        "tiempo": "15 seg",
+                        "series": 0,
+                        "repeticiones": 0
+                    }
+                ],
+                "core": [
+                    {
+                    "ejercicio": "Elevacion de piernas",
+                    "tiempo": "",
+                    "series": 4,
+                    "repeticiones": 15
+                },
+                {
+                    "ejercicio": "Abdominales cortos",
+                    "tiempo": "",
+                    "series": 4,
+                    "repeticiones": 20
+                },
+                {
+                    "ejercicio": "Russian twist",
+                    "tiempo": "20 seg",
+                    "series": 8,
+                    "repeticiones": 0
+                }
+                ],
+                "pierna": [
+                    {
+                        "ejercicio": "Sentadilla con barra",
+                        "tiempo": "",
+                        "series": 3,
+                        "repeticiones": 15
+                    },
+                    {
+                        "ejercicio": "Elevacion de pantorrillas",
+                        "tiempo": "",
+                        "series": 4,
+                        "repeticiones": 15
+                    },
+                    {
+                        "ejercicio": "Salto en extension",
+                        "tiempo": "20 seg",
+                        "series": 8,
+                        "repeticiones": 0
+                    }
+                ],
+                "hombro": [
+                    {
+                        "ejercicio": "Press militar de pie con barra",
+                        "tiempo": "",
+                        "series": 3,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Elevaciones de frontales",
+                        "tiempo": "",
+                        "series": 3,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Elevaciones laterales",
+                        "tiempo": "",
+                        "series": 3,
+                        "repeticiones": 12
+                    }
+                ]
+            }
+        },
+        "definicion": {
+            "lunes": {
+                "calentamiento":[
+                    {
+                        "ejercicio": "Bicicleta",
+                        "tiempo": "15 seg",
+                        "series": 0,
+                        "repeticiones": 0
+                    }
+                ],
+                "core": [
+                    {
+                    "ejercicio": "Elevacion de piernas",
+                    "tiempo": "",
+                    "series": 4,
+                    "repeticiones": 15
+                },
+                {
+                    "ejercicio": "Abdominales cortos",
+                    "tiempo": "",
+                    "series": 4,
+                    "repeticiones": 20
+                },
+                {
+                    "ejercicio": "Russian twist",
+                    "tiempo": "20 seg",
+                    "series": 8,
+                    "repeticiones": 0
+                }
+                ],
+                "pierna": [
+                    {
+                        "ejercicio": "Sentadilla con barra",
+                        "tiempo": "",
+                        "series": 3,
+                        "repeticiones": 15
+                    },
+                    {
+                        "ejercicio": "Elevacion de pantorrillas",
+                        "tiempo": "",
+                        "series": 4,
+                        "repeticiones": 15
+                    },
+                    {
+                        "ejercicio": "Salto en extension",
+                        "tiempo": "20 seg",
+                        "series": 8,
+                        "repeticiones": 0
+                    }
+                ],
+                "hombro": [
+                    {
+                        "ejercicio": "Press militar de pie con barra",
+                        "tiempo": "",
+                        "series": 3,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Elevaciones de frontales",
+                        "tiempo": "",
+                        "series": 3,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Elevaciones laterales",
+                        "tiempo": "",
+                        "series": 3,
+                        "repeticiones": 12
+                    }
+                ]
+            },
+            "martes": {
+                "calentamiento":[
+                    {
+                        "ejercicio": "Bicicleta",
+                        "tiempo": "15 seg",
+                        "series": 0,
+                        "repeticiones": 0
+                    }
+                ],
+                "core": [
+                    {
+                    "ejercicio": "Elevacion de piernas",
+                    "tiempo": "",
+                    "series": 4,
+                    "repeticiones": 15
+                },
+                {
+                    "ejercicio": "Abdominales cortos",
+                    "tiempo": "",
+                    "series": 4,
+                    "repeticiones": 20
+                },
+                {
+                    "ejercicio": "Russian twist",
+                    "tiempo": "20 seg",
+                    "series": 8,
+                    "repeticiones": 0
+                }
+                ],
+                "pecho": [
+                    {
+                        "ejercicio": "Press banco plano",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Press banco inclinado",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Press banco declinado",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    }
+                ],
+                "triceps": [
+                    {
+                        "ejercicio": "Barras paralelas",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Flexiones con manos juntas",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Extensiones de pie con mancuernas",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    }
+                ]
+            },
+            "miercoles": {
+                "calentamiento":[
+                    {
+                        "ejercicio": "Bicicleta",
+                        "tiempo": "15 seg",
+                        "series": 0,
+                        "repeticiones": 0
+                    }
+                ],
+                "core": [
+                    {
+                    "ejercicio": "Elevacion de piernas",
+                    "tiempo": "",
+                    "series": 4,
+                    "repeticiones": 15
+                },
+                {
+                    "ejercicio": "Abdominales cortos",
+                    "tiempo": "",
+                    "series": 4,
+                    "repeticiones": 20
+                },
+                {
+                    "ejercicio": "Russian twist",
+                    "tiempo": "20 seg",
+                    "series": 8,
+                    "repeticiones": 0
+                }
+                ],
+                "espalda": [
+                    {
+                        "ejercicio": "Remo con barra",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Peso muerto con barra",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Dominadas",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    }
+                ],
+                "Biceps": [
+                    {
+                        "ejercicio": "Curl de biceps en banco con barra S",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Bicep concentrado con mancuerna",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Curl de biceps de pie y alternado",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    }
+                ]
+            },
+            "jueves": {
+                "calentamiento":[
+                    {
+                        "ejercicio": "Bicicleta",
+                        "tiempo": "15 seg",
+                        "series": 0,
+                        "repeticiones": 0
+                    }
+                ],
+                "core": [
+                    {
+                    "ejercicio": "Elevacion de piernas",
+                    "tiempo": "",
+                    "series": 4,
+                    "repeticiones": 15
+                },
+                {
+                    "ejercicio": "Abdominales cortos",
+                    "tiempo": "",
+                    "series": 4,
+                    "repeticiones": 20
+                },
+                {
+                    "ejercicio": "Russian twist",
+                    "tiempo": "20 seg",
+                    "series": 8,
+                    "repeticiones": 0
+                }
+                ],
+                "pecho": [
+                    {
+                        "ejercicio": "Press banco plano",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Press banco inclinado",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Press banco declinado",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    }
+                ],
+                "triceps": [
+                    {
+                        "ejercicio": "Barras paralelas",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Flexiones con manos juntas",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Extensiones de pie con mancuernas",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    }
+                ]
+            },
+            "viernes": {
+                "calentamiento":[
+                    {
+                        "ejercicio": "Bicicleta",
+                        "tiempo": "15 seg",
+                        "series": 0,
+                        "repeticiones": 0
+                    }
+                ],
+                "core": [
+                    {
+                    "ejercicio": "Elevacion de piernas",
+                    "tiempo": "",
+                    "series": 4,
+                    "repeticiones": 15
+                },
+                {
+                    "ejercicio": "Abdominales cortos",
+                    "tiempo": "",
+                    "series": 4,
+                    "repeticiones": 20
+                },
+                {
+                    "ejercicio": "Russian twist",
+                    "tiempo": "20 seg",
+                    "series": 8,
+                    "repeticiones": 0
+                }
+                ],
+                "pierna": [
+                    {
+                        "ejercicio": "Sentadilla con barra",
+                        "tiempo": "",
+                        "series": 3,
+                        "repeticiones": 15
+                    },
+                    {
+                        "ejercicio": "Elevacion de pantorrillas",
+                        "tiempo": "",
+                        "series": 4,
+                        "repeticiones": 15
+                    },
+                    {
+                        "ejercicio": "Salto en extension",
+                        "tiempo": "20 seg",
+                        "series": 8,
+                        "repeticiones": 0
+                    }
+                ],
+                "hombro": [
+                    {
+                        "ejercicio": "Press militar de pie con barra",
+                        "tiempo": "",
+                        "series": 3,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Elevaciones de frontales",
+                        "tiempo": "",
+                        "series": 3,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Elevaciones laterales",
+                        "tiempo": "",
+                        "series": 3,
+                        "repeticiones": 12
+                    }
+                ]
+            }
+        },
+        "fuerza": {
+            "lunes": {
+                "calentamiento":[
+                    {
+                        "ejercicio": "Bicicleta",
+                        "tiempo": "15 seg",
+                        "series": 0,
+                        "repeticiones": 0
+                    }
+                ],
+                "core": [
+                    {
+                    "ejercicio": "Elevacion de piernas",
+                    "tiempo": "",
+                    "series": 4,
+                    "repeticiones": 15
+                },
+                {
+                    "ejercicio": "Abdominales cortos",
+                    "tiempo": "",
+                    "series": 4,
+                    "repeticiones": 20
+                },
+                {
+                    "ejercicio": "Russian twist",
+                    "tiempo": "20 seg",
+                    "series": 8,
+                    "repeticiones": 0
+                }
+                ],
+                "pierna": [
+                    {
+                        "ejercicio": "Sentadilla con barra",
+                        "tiempo": "",
+                        "series": 3,
+                        "repeticiones": 15
+                    },
+                    {
+                        "ejercicio": "Elevacion de pantorrillas",
+                        "tiempo": "",
+                        "series": 4,
+                        "repeticiones": 15
+                    },
+                    {
+                        "ejercicio": "Salto en extension",
+                        "tiempo": "20 seg",
+                        "series": 8,
+                        "repeticiones": 0
+                    }
+                ],
+                "hombro": [
+                    {
+                        "ejercicio": "Press militar de pie con barra",
+                        "tiempo": "",
+                        "series": 3,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Elevaciones de frontales",
+                        "tiempo": "",
+                        "series": 3,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Elevaciones laterales",
+                        "tiempo": "",
+                        "series": 3,
+                        "repeticiones": 12
+                    }
+                ]
+            },
+            "martes": {
+                "calentamiento":[
+                    {
+                        "ejercicio": "Bicicleta",
+                        "tiempo": "15 seg",
+                        "series": 0,
+                        "repeticiones": 0
+                    }
+                ],
+                "core": [
+                    {
+                    "ejercicio": "Elevacion de piernas",
+                    "tiempo": "",
+                    "series": 4,
+                    "repeticiones": 15
+                },
+                {
+                    "ejercicio": "Abdominales cortos",
+                    "tiempo": "",
+                    "series": 4,
+                    "repeticiones": 20
+                },
+                {
+                    "ejercicio": "Russian twist",
+                    "tiempo": "20 seg",
+                    "series": 8,
+                    "repeticiones": 0
+                }
+                ],
+                "pecho": [
+                    {
+                        "ejercicio": "Press banco plano",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Press banco inclinado",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Press banco declinado",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    }
+                ],
+                "triceps": [
+                    {
+                        "ejercicio": "Barras paralelas",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Flexiones con manos juntas",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Extensiones de pie con mancuernas",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    }
+                ]
+            },
+            "miercoles": {
+                "calentamiento":[
+                    {
+                        "ejercicio": "Bicicleta",
+                        "tiempo": "15 seg",
+                        "series": 0,
+                        "repeticiones": 0
+                    }
+                ],
+                "core": [
+                    {
+                    "ejercicio": "Elevacion de piernas",
+                    "tiempo": "",
+                    "series": 4,
+                    "repeticiones": 15
+                },
+                {
+                    "ejercicio": "Abdominales cortos",
+                    "tiempo": "",
+                    "series": 4,
+                    "repeticiones": 20
+                },
+                {
+                    "ejercicio": "Russian twist",
+                    "tiempo": "20 seg",
+                    "series": 8,
+                    "repeticiones": 0
+                }
+                ],
+                "espalda": [
+                    {
+                        "ejercicio": "Remo con barra",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Peso muerto con barra",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Dominadas",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    }
+                ],
+                "Biceps": [
+                    {
+                        "ejercicio": "Curl de biceps en banco con barra S",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Bicep concentrado con mancuerna",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Curl de biceps de pie y alternado",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    }
+                ]
+            },
+            "jueves": {
+                "calentamiento":[
+                    {
+                        "ejercicio": "Bicicleta",
+                        "tiempo": "15 seg",
+                        "series": 0,
+                        "repeticiones": 0
+                    }
+                ],
+                "core": [
+                    {
+                    "ejercicio": "Elevacion de piernas",
+                    "tiempo": "",
+                    "series": 4,
+                    "repeticiones": 15
+                },
+                {
+                    "ejercicio": "Abdominales cortos",
+                    "tiempo": "",
+                    "series": 4,
+                    "repeticiones": 20
+                },
+                {
+                    "ejercicio": "Russian twist",
+                    "tiempo": "20 seg",
+                    "series": 8,
+                    "repeticiones": 0
+                }
+                ],
+                "pecho": [
+                    {
+                        "ejercicio": "Press banco plano",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Press banco inclinado",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Press banco declinado",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    }
+                ],
+                "triceps": [
+                    {
+                        "ejercicio": "Barras paralelas",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Flexiones con manos juntas",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Extensiones de pie con mancuernas",
+                        "tiempo": "0",
+                        "series": 4,
+                        "repeticiones": 12
+                    }
+                ]
+            },
             "viernes": {
                 "calentamiento":[
                     {
