@@ -1056,5 +1056,155 @@
                 ]
             }
         }
+    },
+    "rutinas": {
+        "calentamiento":[
+            {
+                "ejercicio": "Bicicleta",
+                "tiempo": "0",
+                "series": 0,
+                "repeticiones": 0
+            }
+        ],
+        "core": [
+            {
+            "ejercicio": "Elevacion de piernas",
+            "tiempo": "",
+            "series": 0,
+            "repeticiones": 0
+        },
+        {
+            "ejercicio": "Abdominales cortos",
+            "tiempo": "",
+            "series": 0,
+            "repeticiones": 0
+        },
+        {
+            "ejercicio": "Russian twist",
+            "tiempo": "",
+            "series": 0,
+            "repeticiones": 0
+        }
+        ],
+        "pierna": [
+            {
+                "ejercicio": "Sentadilla con barra",
+                "tiempo": "",
+                "series": 0,
+                "repeticiones": 0
+            },
+            {
+                "ejercicio": "Elevacion de pantorrillas",
+                "tiempo": "",
+                "series": 0,
+                "repeticiones": 0
+            },
+            {
+                "ejercicio": "Salto en extension",
+                "tiempo": "0",
+                "series": 0,
+                "repeticiones": 0
+            }
+        ],
+        "hombro": [
+            {
+                "ejercicio": "Press militar de pie con barra",
+                "tiempo": "",
+                "series": 0,
+                "repeticiones": 0
+            },
+            {
+                "ejercicio": "Elevaciones de frontales",
+                "tiempo": "",
+                "series": 0,
+                "repeticiones": 0
+            },
+            {
+                "ejercicio": "Elevaciones laterales",
+                "tiempo": "",
+                "series": 0,
+                "repeticiones": 0
+            }
+        ],
+        "pecho": [
+            {
+                "ejercicio": "Press banco plano",
+                "tiempo": "0",
+                "series": 0,
+                "repeticiones": 0
+            },
+            {
+                "ejercicio": "Press banco inclinado",
+                "tiempo": "0",
+                "series": 0,
+                "repeticiones": 0
+            },
+            {
+                "ejercicio": "Press banco declinado",
+                "tiempo": "0",
+                "series": 0,
+                "repeticiones": 0
+            }
+        ],
+        "triceps": [
+            {
+                "ejercicio": "Barras paralelas",
+                "tiempo": "0",
+                "series": 0,
+                "repeticiones": 0
+            },
+            {
+                "ejercicio": "Flexiones con manos juntas",
+                "tiempo": "0",
+                "series": 0,
+                "repeticiones": 0
+            },
+            {
+                "ejercicio": "Extensiones de pie con mancuernas",
+                "tiempo": "0",
+                "series": 0,
+                "repeticiones": 0
+            }
+        ],
+        "espalda": [
+            {
+                "ejercicio": "Remo con barra",
+                "tiempo": "0",
+                "series": 0,
+                "repeticiones": 0
+            },
+            {
+                "ejercicio": "Peso muerto con barra",
+                "tiempo": "0",
+                "series": 0,
+                "repeticiones": 0
+            },
+            {
+                "ejercicio": "Dominadas",
+                "tiempo": "0",
+                "series": 0,
+                "repeticiones": 0
+            }
+        ],
+        "Biceps": [
+            {
+                "ejercicio": "Curl de biceps en banco con barra S",
+                "tiempo": "0",
+                "series": 0,
+                "repeticiones": 0
+            },
+            {
+                "ejercicio": "Bicep concentrado con mancuerna",
+                "tiempo": "0",
+                "series": 0,
+                "repeticiones": 0
+            },
+            {
+                "ejercicio": "Curl de biceps de pie y alternado",
+                "tiempo": "0",
+                "series": 0,
+                "repeticiones": 0
+            }
+        ]
     }
 }
