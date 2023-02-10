@@ -1,0 +1,178 @@
+{
+    "rutinasGenericas": {
+        "musculatura": {
+            "lunes": {
+                "calentamiento":[
+                    {
+                        "ejercicio": "Bicicleta",
+                        "tiempo": "15 seg",
+                        "series": 0,
+                        "repeticiones": 0
+                    }
+                ],
+                "core": [
+                    {
+                    "ejercicio": "Elevacion de piernas",
+                    "tiempo": "",
+                    "series": 4,
+                    "repeticiones": 15
+                },
+                {
+                    "ejercicio": "Abdominales cortos",
+                    "tiempo": "",
+                    "series": 4,
+                    "repeticiones": 20
+                },
+                {
+                    "ejercicio": "Russian twist",
+                    "tiempo": "20 seg",
+                    "series": 8,
+                    "repeticiones": 0
+                }
+                ],
+                "pierna": [
+                    {
+                        "ejercicio": "Sentadilla con barra",
+                        "tiempo": "",
+                        "series": 3,
+                        "repeticiones": 15
+                    },
+                    {
+                        "ejercicio": "Elevacion de pantorrillas",
+                        "tiempo": "",
+                        "series": 4,
+                        "repeticiones": 15
+                    },
+                    {
+                        "ejercicio": "Salto en extension",
+                        "tiempo": "20 seg",
+                        "series": 8,
+                        "repeticiones": 0
+                    }
+                ],
+                "hombro": [
+                    {
+                        "ejercicio": "Press militar de pie con barra",
+                        "tiempo": "",
+                        "series": 3,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Elevaciones de frontales",
+                        "tiempo": "",
+                        "series": 3,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Elevaciones laterales",
+                        "tiempo": "",
+                        "series": 3,
+                        "repeticiones": 12
+                    }
+                ]
+            },
+            "martes": {
+                "calentamiento":[
+                    {
+                        "ejercicio": "Bicicleta",
+                        "tiempo": "15 seg",
+                        "series": 0,
+                        "repeticiones": 0
+                    }
+                ],
+                "core": [
+                    {
+                    "ejercicio": "Elevacion de piernas",
+                    "tiempo": "",
+                    "series": 4,
+                    "repeticiones": 15
+                },
+                {
+                    "ejercicio": "Abdominales cortos",
+                    "tiempo": "",
+                    "series": 4,
+                    "repeticiones": 20
+                },
+                {
+                    "ejercicio": "Russian twist",
+                    "tiempo": "20 seg",
+                    "series": 8,
+                    "repeticiones": 0
+                }
+                ]
+            },
+            "miercoles": [],
+            "jueves": [],
+            "viernes": {
+                "calentamiento":[
+                    {
+                        "ejercicio": "Bicicleta",
+                        "tiempo": "15 seg",
+                        "series": 0,
+                        "repeticiones": 0
+                    }
+                ],
+                "core": [
+                    {
+                    "ejercicio": "Elevacion de piernas",
+                    "tiempo": "",
+                    "series": 4,
+                    "repeticiones": 15
+                },
+                {
+                    "ejercicio": "Abdominales cortos",
+                    "tiempo": "",
+                    "series": 4,
+                    "repeticiones": 20
+                },
+                {
+                    "ejercicio": "Russian twist",
+                    "tiempo": "20 seg",
+                    "series": 8,
+                    "repeticiones": 0
+                }
+                ],
+                "pierna": [
+                    {
+                        "ejercicio": "Sentadilla con barra",
+                        "tiempo": "",
+                        "series": 3,
+                        "repeticiones": 15
+                    },
+                    {
+                        "ejercicio": "Elevacion de pantorrillas",
+                        "tiempo": "",
+                        "series": 4,
+                        "repeticiones": 15
+                    },
+                    {
+                        "ejercicio": "Salto en extension",
+                        "tiempo": "20 seg",
+                        "series": 8,
+                        "repeticiones": 0
+                    }
+                ],
+                "hombro": [
+                    {
+                        "ejercicio": "Press militar de pie con barra",
+                        "tiempo": "",
+                        "series": 3,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Elevaciones de frontales",
+                        "tiempo": "",
+                        "series": 3,
+                        "repeticiones": 12
+                    },
+                    {
+                        "ejercicio": "Elevaciones laterales",
+                        "tiempo": "",
+                        "series": 3,
+                        "repeticiones": 12
+                    }
+                ]
+            }
+        }
+    }
+}
