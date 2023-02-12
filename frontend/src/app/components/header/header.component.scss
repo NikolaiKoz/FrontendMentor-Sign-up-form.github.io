@@ -1,0 +1,17 @@
+@import "../../shared/styles/colors";
+@import "../../shared/styles/flex";
+
+.header {
+  width: 100%;
+  @include flex();
+
+  &__title {
+    width: 18.75rem;
+    background-color: red;
+  }
+
+  &__description {
+    width: 23.625rem;
+    background-color: aqua;
+  }
+}

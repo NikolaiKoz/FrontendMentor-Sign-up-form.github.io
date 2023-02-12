@@ -3,6 +3,9 @@
 
 // Reseteamos margin y paddongs de todas las etiquetas
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
@@ -126,7 +129,6 @@ svg {
 body {
   min-height: 100vh;
   font-size: 100%;
-  font-family: Arial, Helvetica, sans-serif;
-  color: brown;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.6em;
 }
