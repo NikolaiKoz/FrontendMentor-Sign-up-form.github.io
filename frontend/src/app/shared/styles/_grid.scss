@@ -1,0 +1,12 @@
+@mixin grid($display: grid, $template: 1fr 1fr 1fr, $gap: 1em, $justify: center, $align: center){
+    display: $display;
+    grid-template-columns: $template;
+    grid-gap: $gap;
+    justify-items: $justify;
+    align-items: $align;
+
+    @media screen and (max-width: 400px){
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+}
