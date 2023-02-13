@@ -1,17 +1,33 @@
+@import './shared/styles/colors';
+@import './shared/styles/flex';
+@import './shared/styles/mediaQuery';
+
 .bg{
     width: 100%;
-                       min-height: 100vh;
-    background-color: hsl(0, 100%, 74%);
+    min-height: 100vh;
+    background-color: $Red;
     background-image: url(../../intro-component-with-signup-form-master/images/bg-intro-mobile.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
+    @include responsive(desktop){
+      background-image: url(../../intro-component-with-signup-form-master/images/bg-intro-desktop.png);
+      @include flex($direction: column, $align: center, $justify: center);
+    }
   }
 
   .wrapper{
     width: 90%;
+    max-width: 90rem;
     margin: 0 auto;
-  }
+
+    @include responsive(desktop){
+      @include flex($direction: row, $align: center, $wrap: nowrap );
+    }
+
+    }
+
 
   .relleno{
     height: 5rem;

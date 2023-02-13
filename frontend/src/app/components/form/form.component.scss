@@ -1,6 +1,6 @@
 @import '../../shared/styles/colors';
 @import '../../shared/styles/flex';
-@import '../../shared/styles/grid';
+@import '../../shared/styles/mediaQuery';
 
 .form{
     background-color: $White;
@@ -10,6 +10,11 @@
 
     @include flex();
     padding: 2rem;
+
+    @include responsive(desktop){
+        width: 80%;
+        margin: 0 auto;
+    }
 
     &__input{
         border-radius: .3rem;
@@ -23,6 +28,11 @@
         &::placeholder{
             color: rgba($Dark-Blue, .7);
             font-weight: 600;
+        }
+
+        &:focus{
+            outline: none;
+            border: 1px solid $Blue;
         }
 
         &--btn{

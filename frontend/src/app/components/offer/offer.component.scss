@@ -1,5 +1,6 @@
 @import "../../shared/styles/flex";
 @import "../../shared/styles/colors";
+@import "../../shared/styles/mediaQuery";
 
 .offer {
   background-color: $Blue;
@@ -14,9 +15,17 @@
   box-shadow: 0rem 0.6rem rgba($Dark-Blue, 0.2);
   @include flex();
 
+  @include responsive(desktop){
+    width: 80%;
+}
+
   &__description {
     width: 12rem;
     text-align: center;
+
+    @include responsive(desktop){
+      width: 100%;
+  }
 
     &--strong {
       font-weight: 800;
