@@ -47,6 +47,15 @@
             font-weight: 600;
             font-size: 1.1rem;
             margin: 0 0 1rem 0;
+            transition: background-color .2s ease-in-out;
+
+            @include responsive(desktop){
+
+                &:hover{
+                    background-color: rgba($Green, 0.7);
+                }
+
+            }
         }
     }
 
