@@ -13,13 +13,13 @@ export class FormComponent {
     firstName: new FormControl('',[
       Validators.required,
       Validators.minLength(3),
-      Validators.maxLength(10),
+      Validators.maxLength(20),
       Validators.pattern('[a-zA-Z]*')
     ]),
     lastName: new FormControl('', [
       Validators.required,
       Validators.minLength(3),
-      Validators.maxLength(10),
+      Validators.maxLength(20),
       Validators.pattern('[a-zA-Z]*')
     ]),
     email: new FormControl('', [
