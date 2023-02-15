@@ -1,16 +1,26 @@
 <app-offer></app-offer>
 
-<form class="form">
+<form class="form" [formGroup]="formLogin">
 
-    <input class="form__input" type="text" name="name" placeholder="First Name" />
+    <!-- *************** Name *************** -->
 
-    <input class="form__input" type="text" name="lastName" placeholder="Last Name" />
+    <input class="form__input" type="text" name="name" placeholder="First Name" formControlName="firstName"/>
 
-    <input class="form__input" type="email" name="email" placeholder="Email Address" />
+    <!-- *************** Last Name *************** -->
 
-    <input class="form__input" type="password" name="name" placeholder="Password" />
+    <input class="form__input" type="text" name="lastName" placeholder="Last Name" formControlName="lastName"/>
 
-    <input class="form__input--btn" type="button" value="claim your free trial" />
+    <!-- *************** Email *************** -->
+
+    <input class="form__input" type="email" name="email" placeholder="Email Address" formControlName="email"/>
+
+    <!-- *************** Password *************** -->
+
+    <input class="form__input" type="password" name="name" placeholder="Password" formControlName="password"/>
+
+    <!-- *************** Btn *************** -->
+
+    <input class="form__input--btn" type="button" value="claim your free trial" (click)="send()" [disabled]="formLogin.invalid"/>
 
     <p class="form__description">
         By clicking the button, you are agreeing to our
