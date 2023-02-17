@@ -7,7 +7,7 @@
     <div class="form__inputContainer">
         <input class="form__input" type="text" name="name" placeholder="First Name" formControlName="firstName"/>
 
-        <div class="form__icon">
+        <div class="form__icon" *ngIf="formLogin.controls.firstName.errors && formLogin.controls.firstName.dirty">
             <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
         </div>
 
@@ -35,7 +35,7 @@
     <div class="form__inputContainer">
             <input class="form__input" type="text" name="lastName" placeholder="Last Name" formControlName="lastName"/>
 
-        <div class="form__icon">
+        <div class="form__icon" *ngIf="formLogin.controls.lastName.errors && formLogin.controls.lastName.dirty">
             <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
         </div>
 
@@ -63,7 +63,7 @@
 
         <input class="form__input" type="email" name="email" placeholder="Email Address" formControlName="email"/>
 
-        <div class="form__icon">
+        <div class="form__icon" *ngIf="formLogin.controls.email.errors && formLogin.controls.email.dirty">
             <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
         </div>
 
@@ -87,7 +87,7 @@
         <input class="form__input" type="password" name="name" placeholder="Password" formControlName="password"/>
 
 
-        <div class="form__icon">
+        <div class="form__icon" *ngIf="formLogin.controls.password.errors && formLogin.controls.password.dirty">
             <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
         </div>
 
