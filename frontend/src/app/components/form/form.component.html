@@ -6,17 +6,77 @@
 
     <input class="form__input" type="text" name="name" placeholder="First Name" formControlName="firstName"/>
 
+    <div class="form__input--errorMessage">
+
+        <p *ngIf="formLogin.controls.firstName.errors && formLogin.controls.firstName.dirty">
+            First Name is required
+        </p>
+
+        <p *ngIf="formLogin.controls.firstName.errors && formLogin.controls.firstName.dirty">
+            First Name must be at least 3 characters long
+        </p>
+
+        <p *ngIf="formLogin.controls.firstName.errors && formLogin.controls.firstName.dirty">
+            First Name cannot be more than 10 characters long
+        </p>
+
+    </div>
+
     <!-- *************** Last Name *************** -->
 
     <input class="form__input" type="text" name="lastName" placeholder="Last Name" formControlName="lastName"/>
+
+    <div class="form__input--errorMessage">
+
+        <p *ngIf="formLogin.controls.lastName.errors && formLogin.controls.lastName.dirty">
+            Last Name is required
+        </p>
+
+        <p *ngIf="formLogin.controls.lastName.errors && formLogin.controls.lastName.dirty">
+            Last Name must be at least 3 characters long
+        </p>
+
+        <p *ngIf="formLogin.controls.lastName.errors && formLogin.controls.lastName.dirty">
+            Last Name cannot be more than 10 characters long
+        </p>
+
+    </div>
 
     <!-- *************** Email *************** -->
 
     <input class="form__input" type="email" name="email" placeholder="Email Address" formControlName="email"/>
 
+    <div class="form__input--errorMessage">
+
+        <p *ngIf="formLogin.controls.email.errors && formLogin.controls.email.dirty">
+            Email is required
+        </p>
+
+        <p *ngIf="formLogin.controls.email.errors && formLogin.controls.email.dirty">
+            Email must be a valid email
+        </p>
+
+    </div>
+
     <!-- *************** Password *************** -->
 
     <input class="form__input" type="password" name="name" placeholder="Password" formControlName="password"/>
+
+    <div class="form__input--errorMessage">
+
+        <p *ngIf="formLogin.controls.password.errors && formLogin.controls.password.dirty">
+            Password is required
+        </p>
+
+        <p *ngIf="formLogin.controls.password.errors && formLogin.controls.password.dirty">
+            Password must be at least 6 characters long
+        </p>
+
+        <p *ngIf="formLogin.controls.password.errors && formLogin.controls.password.dirty">
+            Password cannot be more than 10 characters long
+        </p>
+
+    </div>
 
     <!-- *************** Btn *************** -->
 
