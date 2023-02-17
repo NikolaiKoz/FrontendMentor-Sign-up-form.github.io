@@ -6,13 +6,13 @@
     width: 100%;
     min-height: 100vh;
     background-color: $Red;
-    background-image: url(../../intro-component-with-signup-form-master/images/bg-intro-mobile.png);
+    background-image: url(../assets/images/bg-intro-mobile.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 
     @include responsive(desktop){
-      background-image: url(../../intro-component-with-signup-form-master/images/bg-intro-desktop.png);
+      background-image: url(../assets/images/bg-intro-desktop.png);
       @include flex($direction: column, $align: center, $justify: center);
     }
   }
