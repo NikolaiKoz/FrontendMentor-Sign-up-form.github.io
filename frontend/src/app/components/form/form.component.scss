@@ -46,6 +46,14 @@
             border: 1px solid $Blue;
         }
 
+        &--error{
+            border: 1px solid $Red;
+
+            &:focus{
+                border: 1px solid $Red;
+            }
+        }
+
         &--errorMessage{
             width: 100%;
             color: $Red;

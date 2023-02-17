@@ -5,48 +5,47 @@ import { debounceTime } from 'rxjs/operators';
 @Component({
   selector: 'app-form',
   templateUrl: './form.component.html',
-  styleUrls: ['./form.component.scss']
+  styleUrls: ['./form.component.scss'],
 })
 export class FormComponent {
-
   formLogin = new FormGroup({
-    firstName: new FormControl('',[
+    firstName: new FormControl('', [
       Validators.required,
       Validators.minLength(3),
       Validators.maxLength(20),
-      Validators.pattern('[a-zA-Z]*')
+      Validators.pattern('[a-zA-Z]*'),
     ]),
     lastName: new FormControl('', [
       Validators.required,
       Validators.minLength(3),
       Validators.maxLength(20),
-      Validators.pattern('[a-zA-Z]*')
+      Validators.pattern('[a-zA-Z]*'),
     ]),
     email: new FormControl('', [
       Validators.required,
       Validators.email,
-      Validators.pattern('[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,4}$')
-
+      Validators.pattern('[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,4}$'),
     ]),
     password: new FormControl('', [
       Validators.required,
       Validators.minLength(6),
-      Validators.maxLength(12)
+      Validators.maxLength(12),
     ]),
   });
 
   constructor() {
-    this.formLogin.valueChanges.pipe(debounceTime(350)).subscribe(value => {
-      console.log(value);
+    this.formLogin.valueChanges.pipe(debounceTime(350)).subscribe((value) => {
     });
-  };
-
-
-  send(): any {
-    console.log(this.formLogin.value);
-
-  };
   }
 
 
+  send(): any {
+    alert('Formulario enviado');
+    alert(JSON.stringify(this.formLogin.value));
+    setTimeout(() => {
+      this.formLogin.reset();
+    }
+    , 1000);
+  }
 
+}
