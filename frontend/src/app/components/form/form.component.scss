@@ -16,6 +16,17 @@
         margin: 0 auto;
     }
 
+    &__inputContainer{
+        width: 100%;
+        position: relative;
+    }
+
+    &__icon{
+        position: absolute;
+        top: 1.2rem;
+        right: 1.2rem;
+    }
+
     &__input{
         border-radius: .3rem;
         border: 1px solid $Grayish-Blue;
